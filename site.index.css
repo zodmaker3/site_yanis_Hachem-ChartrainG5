@@ -1,0 +1,125 @@
+body {
+    background-color: grey;
+}
+.barre{
+    background-color: coral;
+    height:100%;
+    max-width: 10%;
+    min-height: 100vh;
+
+}
+.logo_bdr{
+    display: flex;
+}
+.barre_de_recherche{
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu1 {
+    font-size: 40px;
+    text-align:center;
+    color:Black;
+    background-color: darkgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid black ;
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+.Menu_de_sélection{
+    background-color: coral;
+    border: 5px solid black;
+    margin-top: 2.5%;
+}
+.cube_de_précision{
+    border:5px;
+    text-align: center;
+    display: flex;
+    gap: 300px;
+    margin-left:10%;
+    margin-top: 1.5%;
+}
+h2{
+    background-color:rgb(248, 106, 12);
+    border: 2.5px solid black
+}
+a{
+    color:#000
+}
+
+.premierelignedeperso {
+    display: flex;
+    gap: 200px;
+    margin-left:7.5% ;
+    text-align: center;
+    margin-top:2%;
+}
+
+header {
+    background-color: color-mix(in srgb-linear, red 100%, rgb(255, 132, 0) 100%);
+    width: 100%;
+    top:0;
+
+}
+body {
+    background-color: #6d7274;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color:rgb(144, 148, 151);
+    color: #000;
+}
+.deuxiemelignedeperso  {
+    display: flex;
+    gap: 200px;
+    margin-left:7.5% ;
+    text-align: center;
+}
+.total{
+    display:flex;
+}
+.menu2{
+    font-size: 40px;
+    text-align: center;
+    color:Black;
+    background-color: darkgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid black ;
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+.total1{
+    display:flex;
+}
+.personage{
+    display: flex;
+    margin-left: 5%;
+    gap: 10%;
+    margin-top: 2.5%;
+}
+.contenu_menu{
+    background-image: url(planetenamek2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.informations_perso{
+    width: 35%;
+    background-color: #8b9193;
+    border: 1.5px solid black;
+    
+
+}
+@media screen and(max-width:400px) {
+    .premierelignedeperso{
+        width: 100%;
+    }
+}
